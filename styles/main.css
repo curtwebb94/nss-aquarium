@@ -5,7 +5,7 @@ font-size: 40px;
 font-family:monospace;
 }
 
-.list {
+.fish_species {
     display: inline-block;
     flex-wrap: wrap;
     justify-content: space-evenly; /* Evenly space the child elements */
@@ -13,12 +13,41 @@ font-family:monospace;
     color: chartreuse;
 }
 
-.fish {
+.fish_length {
+  display: inline-block;
+  flex-wrap: wrap;
+  justify-content: space-evenly; /* Evenly space the child elements */
+  background-color: black;
+  color: chartreuse;
+}
+.fish_location {
+  display: inline-block;
+  flex-wrap: wrap;
+  justify-content: space-evenly; /* Evenly space the child elements */
+  background-color: black;
+  color: chartreuse;
+}
+.fish_location {
+  display: inline-block;
+  flex-wrap: wrap;
+  justify-content: space-evenly; /* Evenly space the child elements */
+  background-color: black;
+  color: chartreuse;
+}
+.fish_name {
     flex-basis: 16%;
     border: 4px solid rgb(13, 84, 143);
     padding: 1em;
     margin: 0.5em;
 }
+.fish_diet {
+  display: inline-block;
+  flex-wrap: wrap;
+  justify-content: space-evenly; /* Evenly space the child elements */
+  background-color: black;
+  color: chartreuse;
+}
+
 .care {
   display: inline-block;
   background-color: black;

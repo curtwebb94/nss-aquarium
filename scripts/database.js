@@ -10,42 +10,48 @@ const database = {
             name: "Bart",
             food: "crustaceans",
             size: 3,
-            species: "Carp"
+            species: "Carp",
+            image:"./guppy_fish.jpeg"
 
         },
         {
             name: "Donna",
             food: "worms",
             size: 3,
-            species: "Bass"
+            species: "Bass",
+            image:"./black_bass.jpg"
 
         },
         {
             name: "James",
             food: "worms",
             size: 3,
-            species: "crappie"
+            species: "crappie",
+            image:"./crappie.jfif"
 
         },
         {
             name: "Dot",
             food: "worms",
             size: 4,
-            species: "catfish"
+            species: "catfish",
+            image:"./catfish.jfif"
 
         },
         {
             name: "Jim",
             food: "fish",
             size: 6,
-            species: "bull shark"
+            species: "bull shark",
+            image:"./guppy_fish.jpeg"
 
         },  
         {
             name: "Marty",
             food: "fish",
             size: 5,
-            species: "sword fish"
+            species: "sword fish",
+            image:"./guppy_fish.jpeg"
 
         }
     ]
