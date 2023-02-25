@@ -8,10 +8,11 @@ const database = {
     fish: [
         {
             name: "Bart",
-            food: "crustaceans",
-            size: 3,
-            species: "Carp",
-            image:"./guppy_fish.jpeg"
+            food: "flakes",
+            size: 1,
+            species: "Guppy",
+            image:"./guppy_fish.jpeg",
+            location:"Pet Stores"
 
         },
         {
@@ -19,7 +20,8 @@ const database = {
             food: "worms",
             size: 3,
             species: "Bass",
-            image:"./black_bass.jpg"
+            image:"./black_bass.jpg",
+            location:"Lakes"
 
         },
         {
@@ -27,7 +29,9 @@ const database = {
             food: "worms",
             size: 3,
             species: "crappie",
-            image:"./crappie.jfif"
+            image:"./crappie.jfif",
+            location:"Lakes"
+
 
         },
         {
@@ -35,7 +39,9 @@ const database = {
             food: "worms",
             size: 4,
             species: "catfish",
-            image:"./catfish.jfif"
+            image:"./catfish.jfif",
+            location:"Lakes"
+
 
         },
         {
@@ -43,7 +49,9 @@ const database = {
             food: "fish",
             size: 6,
             species: "bull shark",
-            image:"./guppy_fish.jpeg"
+            image:"./bullshark.webp",
+            location:"Oceans"
+
 
         },  
         {
@@ -51,7 +59,9 @@ const database = {
             food: "fish",
             size: 5,
             species: "sword fish",
-            image:"./guppy_fish.jpeg"
+            image:"./swordfish.jpg",
+            location:"Oceans"
+
 
         }
     ]

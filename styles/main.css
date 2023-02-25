@@ -1,59 +1,84 @@
+body {
+  background-color: rgb(19, 87, 109);
+}
+
 .pageHeader {
-text-align: center;
-color:darkgreen;
-font-size: 40px;
-font-family:monospace;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  font-family: monospace;
+  margin: 2.0em;
+  text-decoration: underline wavy #FFFFFF;
 }
 
 .fish_species {
-    display: inline-block;
-    flex-wrap: wrap;
-    justify-content: space-evenly; /* Evenly space the child elements */
-    background-color: black;
-    color: chartreuse;
+  display: inline-block;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  /* Evenly space the child elements */
+  color: rgb(255, 255, 255);
 }
 
 .fish_length {
   display: inline-block;
   flex-wrap: wrap;
-  justify-content: space-evenly; /* Evenly space the child elements */
-  background-color: black;
-  color: chartreuse;
+  justify-content: space-evenly;
+  /* Evenly space the child elements */
+  color: rgb(255, 255, 255);
 }
+
 .fish_location {
   display: inline-block;
   flex-wrap: wrap;
-  justify-content: space-evenly; /* Evenly space the child elements */
-  background-color: black;
-  color: chartreuse;
+  justify-content: space-evenly;
+  /* Evenly space the child elements */
+
+  color: rgb(255, 255, 255);
 }
+
 .fish_location {
   display: inline-block;
   flex-wrap: wrap;
-  justify-content: space-evenly; /* Evenly space the child elements */
-  background-color: black;
-  color: chartreuse;
+  justify-content: space-evenly;
+  /* Evenly space the child elements */
+
+  color: rgb(255, 255, 255);
 }
+
 .fish_name {
-    flex-basis: 16%;
-    border: 4px solid rgb(13, 84, 143);
-    padding: 1em;
-    margin: 0.5em;
+  font-size: 40px;
+  color: aliceblue;
+  font-family: cursive;
+
 }
+
 .fish_diet {
   display: inline-block;
   flex-wrap: wrap;
-  justify-content: space-evenly; /* Evenly space the child elements */
-  background-color: black;
-  color: chartreuse;
+  justify-content: space-evenly;
+  /* Evenly space the child elements */
+
+  color: rgb(255, 255, 255);
+}
+
+.fish_image {
+  width: 300px; /*set the width or max-width*/
+  height: auto; /*this makes sure to maintain the aspect ratio*/
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  /* Evenly space the child elements */
+  color: rgb(255, 255, 255);
+  margin: 3.0em;
 }
 
 .care {
-  display: inline-block;
-  background-color: black;
-    text-align: right;
-    border: 2px solid red;
-   padding: 0.5em;
-   color: aqua;
-   
+  
+  width: 600px;
+    margin-left: 50%;
+  
+  
+  padding: 2.0em;
+  color: rgb(255, 255, 255);
+
 }
+
