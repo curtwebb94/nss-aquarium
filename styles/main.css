@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(19, 87, 109);
+  background-color: rgb(0, 0, 0);
 }
 
 .pageHeader {
@@ -7,11 +7,11 @@ body {
   font-size: 40px;
   font-family: monospace;
   margin: 2.0em;
-  background: #FFE042; /*This is the start of the gradient color heading*/
-  background: repeating-linear-gradient(to right, #FFE042 33%, #A9F734 88%);
+  background: #e766d3; /*This is the start of the gradient color heading*/
+  background: repeating-linear-gradient(to right, #ff00c8 33%, #1b2eff 88%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  text-decoration: underline wavy #e9eb64;
+  text-decoration: underline wavy #17fffb;
 }
 
 .fish_species {
@@ -83,8 +83,6 @@ body {
 
   width: 600px;
   margin-left: 50%;
-
-
   padding: 2.0em;
   color: rgb(255, 255, 255);
 
