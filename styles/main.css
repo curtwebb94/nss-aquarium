@@ -4,11 +4,14 @@ body {
 
 .pageHeader {
   text-align: center;
-  color: rgb(255, 255, 255);
   font-size: 40px;
   font-family: monospace;
   margin: 2.0em;
-  text-decoration: underline wavy #FFFFFF;
+  background: #FFE042; /*This is the start of the gradient color heading*/
+  background: repeating-linear-gradient(to right, #FFE042 33%, #A9F734 88%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-decoration: underline wavy #e9eb64;
 }
 
 .fish_species {
@@ -62,24 +65,27 @@ body {
 }
 
 .fish_image {
-  width: 300px; /*set the width or max-width*/
-  height: auto; /*this makes sure to maintain the aspect ratio*/
+  width: 300px;
+  /*set the width or max-width*/
+  height: auto;
+  /*this makes sure to maintain the aspect ratio*/
   flex-wrap: wrap;
   justify-content: space-evenly;
   /* Evenly space the child elements */
   color: rgb(255, 255, 255);
-  margin: 3.0em; /*controls background shadow*/
-  filter: drop-shadow(27px 19px 16px #BC3099); /*controls drop shadow background*/
+  margin: 3.0em;
+  /*controls background shadow*/
+  filter: drop-shadow(27px 19px 16px #BC3099);
+  /*controls drop shadow background*/
 }
 
 .care {
-  
+
   width: 600px;
-    margin-left: 50%;
-  
-  
+  margin-left: 50%;
+
+
   padding: 2.0em;
   color: rgb(255, 255, 255);
 
 }
-
